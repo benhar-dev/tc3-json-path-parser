@@ -28,18 +28,18 @@ PROGRAM MAIN
 VAR
 	// remember to make a string large enough to hold the json.
 	jsonString : T_MAXSTRING :=
-		'[
-			  {
-				"First": 4
-			  },
-			  {
-				"Second": 12,
-				"Third": [100, 200, 300],
-				"Fourth": {
-				  "a": true
-				}
-			  }
-			]';
+	'[
+	   {
+	      "First": 4
+	   },
+	   {
+	      "Second": 12,
+	      "Third": [100, 200, 300],
+	      "Fourth": {
+	         "a": true
+	      }
+	   }
+	]';
 
 	triggered : BOOL;
 	jsonParser : FB_JsonDomParser;
